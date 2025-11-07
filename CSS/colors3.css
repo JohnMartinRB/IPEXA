@@ -1,0 +1,62 @@
+
+/* color palette */
+:root {
+    --fondo1: #014eca;
+    --fondo2: #00358a;
+
+    --titulo: #fff;
+    --subtitulo: #fff;
+
+    --menu-fondo: #00146e;
+    --menu-texto: #fff;
+    --menu-fondo-h: #77c9ff;
+    --menu-texto-h: #071542;
+    --menu-fondo-a: #000f50;
+    --menu-texto-a: #fff;
+
+    --hero-titulo: #fff;
+    --hero-icono: #77c9ff;
+    --hero-texto: #fff;
+    
+    --articulo-titulo: #fff;
+    --articulo-circulo: #00196b;
+    --articulo-icono: #fff;
+    --articulo-parrafo: #fff;
+
+    --formulario: #0062ff;
+    --formulario-legend: #071542;
+    --formulario-label: #00146e;
+    --formulario-input: #000;
+    --formulario-text: #fff;
+    
+    --boton-fondo: #00146e;
+    --boton-texto: #fff;
+    --boton-fondo-h: #77c9ff;
+    --boton-texto-h: #071542;
+    
+    --pie-parrafo: #fff;
+}
+
+
+
+
+
+#modo-oscuro {
+    display: none;
+}
+
+
+
+
+
+.hero {
+    background-image: url("../images/hero4.jpg");
+}
+
+
+
+
+
+.articulo h3 {
+    font-weight: bold;
+}

@@ -1,0 +1,66 @@
+
+/* color palette */
+:root {
+    --fondo1: #134cd4;
+    --fondo2: #77c9ff;
+
+    --titulo: #fff;
+    --subtitulo: #fff;
+
+    --menu-fondo: #1ee1f7;
+    --menu-texto: #071542;
+    --menu-fondo-h: #134cd4;
+    --menu-texto-h: #fff;
+    --menu-fondo-a: #19a7d9;
+    --menu-texto-a: #071542;
+
+    --hero-titulo: #fff;
+    --hero-icono: #fff;
+    --hero-texto: #fff;
+    
+    --articulo-titulo: #1ee1f7;
+    --articulo-circulo: #0e3475;
+    --articulo-icono: #1ee1f7;
+    --articulo-parrafo: #fff;
+
+    --formulario: #0e3475;
+    --formulario-legend: #1ee1f7;
+    --formulario-label: #fff;
+    --formulario-input: #000;
+    --formulario-text: #fff;
+    
+    --boton-fondo: #1ee1f7;
+    --boton-texto: #071542;
+    --boton-fondo-h: #134cd4;
+    --boton-texto-h: #fff;
+    
+    --pie-parrafo: #000;
+}
+
+
+
+
+
+#modo-oscuro {
+    display: none;
+}
+
+
+
+
+
+.hero {
+    background-image: url("../images/hero3.jpg");
+}
+.hero-contenido {
+    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgb(0 0 0 / 40%);
+}
+
+
+
+
+
+.articulo h3 {
+    font-weight: bold;
+}

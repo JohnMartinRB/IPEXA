@@ -1,0 +1,135 @@
+
+:root {
+    /* General */
+    --fondo1: #fff;
+    --fondo2: #dfe9f3;
+
+    --titulo: #000;
+    --subtitulo: #000;
+
+    --menu-fondo: #0097a7;
+    --menu-texto: #fff;
+    --menu-fondo-hover: #ffc107;
+    --menu-texto-hover: #000;
+    --menu-fondo-activo: #027885;
+    --menu-texto-activo: #fff;
+
+    --hero-titulo: #fff;
+    --hero-icono: #ffc107;
+    --hero-texto: #fff;
+    --hero-boton-fondo: #0097a7;
+    --hero-boton-texto: #fff;
+    --hero-boton-fondo-hover: #ffc107;
+    --hero-boton-texto-hover: #000;
+
+    --pie-parrafo: #000;
+
+    /* Inicio */
+    --articulo-titulo: #0097a7;
+    --articulo-circulo: #ffc107;
+    --articulo-icono: #000;
+    --articulo-parrafo: #000;
+
+    --inicio-subsubtitulo: #000;
+    --inicio-formulario: #757575;
+    --inicio-formulario-legend: #ffc107;
+    --inicio-formulario-label: #fff;
+    --inicio-formulario-input: #000;
+    --inicio-formulario-checkbox: #0097a7;
+    --inicio-formulario-texto: #fff;
+    --inicio-formulario-boton-fondo: #0097a7;
+    --inicio-formulario-boton-texto: #fff;
+    --inicio-formulario-boton-fondo-hover: #ffc107;
+    --inicio-formulario-boton-texto-hover: #000;
+
+    /* Nosotros */
+    --nosotros-subsubtitulo: #000;
+    --nosotros-formulario: #757575;
+    --nosotros-formulario-legend: #ffc107;
+    --nosotros-formulario-label: #fff;
+    --nosotros-formulario-input: #000;
+    --nosotros-formulario-checkbox: #0097a7;
+    --nosotros-formulario-texto: #fff;
+    --nosotros-formulario-boton-fondo: #0097a7;
+    --nosotros-formulario-boton-texto: #fff;
+    --nosotros-formulario-boton-fondo-hover: #ffc107;
+    --nosotros-formulario-boton-texto-hover: #000;
+
+    /* Clientes */
+    --clientes-login-subsubtitulo: #000;
+    --clientes-login-formulario: #757575;
+    --clientes-login-formulario-legend: #ffc107;
+    --clientes-login-formulario-label: #fff;
+    --clientes-login-formulario-input: #000;
+    --clientes-login-formulario-checkbox: #0097a7;
+    --clientes-login-formulario-texto: #fff;
+    --clientes-login-formulario-boton-fondo: #0097a7;
+    --clientes-login-formulario-boton-texto: #fff;
+    --clientes-login-formulario-boton-fondo-hover: #ffc107;
+    --clientes-login-formulario-boton-texto-hover: #000;
+
+    --clientes-signup-subsubtitulo: #000;
+    --clientes-signup-formulario: #757575;
+    --clientes-signup-formulario-legend: #ffc107;
+    --clientes-signup-formulario-label: #fff;
+    --clientes-signup-formulario-input: #000;
+    --clientes-signup-formulario-checkbox: #0097a7;
+    --clientes-signup-formulario-texto: #fff;
+    --clientes-signup-formulario-boton-fondo: #0097a7;
+    --clientes-signup-formulario-boton-texto: #fff;
+    --clientes-signup-formulario-boton-fondo-hover: #ffc107;
+    --clientes-signup-formulario-boton-texto-hover: #000;
+
+    /* Contactos */
+    --contactos-contratar-subsubtitulo: #000;
+    --contactos-contratar-formulario: #757575;
+    --contactos-contratar-formulario-legend: #ffc107;
+    --contactos-contratar-formulario-label: #fff;
+    --contactos-contratar-formulario-input: #000;
+    --contactos-contratar-formulario-checkbox: #0097a7;
+    --contactos-contratar-formulario-texto: #fff;
+    --contactos-contratar-formulario-boton-fondo: #0097a7;
+    --contactos-contratar-formulario-boton-texto: #fff;
+    --contactos-contratar-formulario-boton-fondo-hover: #ffc107;
+    --contactos-contratar-formulario-boton-texto-hover: #000;
+
+    --contactos-unirse-subsubtitulo: #000;
+    --contactos-unirse-formulario: #757575;
+    --contactos-unirse-formulario-legend: #ffc107;
+    --contactos-unirse-formulario-label: #fff;
+    --contactos-unirse-formulario-input: #000;
+    --contactos-unirse-formulario-checkbox: #0097a7;
+    --contactos-unirse-formulario-texto: #fff;
+    --contactos-unirse-formulario-boton-fondo: #0097a7;
+    --contactos-unirse-formulario-boton-texto: #fff;
+    --contactos-unirse-formulario-boton-fondo-hover: #ffc107;
+    --contactos-unirse-formulario-boton-texto-hover: #000;
+}
+
+
+
+
+#modo-oscuro {
+    display: none;
+}
+
+
+
+
+
+
+.hero {
+    background-image: url("../images/hero1.jpg");
+}
+.hero-contenido {
+    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgb(0 0 0 / 70%);
+}
+
+
+
+
+
+.articulo h3 {
+    font-weight: normal;
+}

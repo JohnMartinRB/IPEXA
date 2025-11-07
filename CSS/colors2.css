@@ -1,0 +1,116 @@
+
+/* color palette */
+:root {
+    --fondo1: #d6c5f1;
+    --fondo2: #a7e3f5;
+
+    --titulo: #000000;
+    --subtitulo: #000000;
+
+    --menu-fondo: #0077ff;
+    --menu-texto: #fff;
+    --menu-fondo-h: #e3f9ff;
+    --menu-texto-h: #071542;
+    --menu-fondo-a: #025dc5;
+    --menu-texto-a: #fff;
+
+    --hero-titulo: #fff;
+    --hero-icono: #d6c5f1;
+    --hero-texto: #fff;
+
+    --articulo-titulo: #071542;
+    --articulo-circulo: #9375ff;
+    --articulo-icono: #000000;
+    --articulo-parrafo: #000000;
+
+    --formulario: #00146e;
+    --formulario-legend: #0077ff;
+    --formulario-label: #fff;
+    --formulario-input: #000000;
+    
+    --boton-fondo: #0077ff;
+    --boton-texto: #fff;
+    --boton-fondo-h: #e3f9ff;
+    --boton-texto-h: #00146e;
+    
+    --pie-parrafo: #000000;
+
+    --subpagina-icono: #5333c2;
+}
+
+#dark-mode:checked ~ .contenido {
+    --fondo1: #5333c2;
+    --fondo2: #014eca;
+
+    --titulo: #fff;
+    --subtitulo: #fff;
+
+    --menu-fondo: #00146e;
+    --menu-texto: #fff;
+    --menu-fondo-h: #014eca;
+    --menu-texto-h: #071542;
+    --menu-fondo-a: #000f50;
+    --menu-texto-a: #fff;
+
+    --hero-titulo: #fff;
+    --hero-icono: #fff;
+    --hero-texto: #fff;
+    
+    --articulo-titulo: #fff;
+    --articulo-circulo: #071542;
+    --articulo-icono: #fff;
+    --articulo-parrafo: #fff;
+
+    --formulario: #0099ff;
+    --formulario-legend: #071542;
+    --formulario-label: #00146e;
+    --formulario-input: #000;
+    --formulario-text: #fff;
+    
+    --boton-fondo: #00146e;
+    --boton-texto: #fff;
+    --boton-fondo-h: #014eca;
+    --boton-texto-h: #071542;
+    
+    --pie-parrafo: #fff;
+}
+
+
+
+
+
+#modo-oscuro {
+    background-color: #d6c5f1;
+    color: #5333c2;
+    cursor: pointer;
+    display: block;
+    font-size: 1.5rem;
+    margin-bottom: -25px;
+    width: 100%;
+}
+#dark-mode:checked ~ #modo-oscuro {
+    background-color: #5333c2;
+    color: #d6c5f1;
+}
+
+@media (max-width: 480px) {
+    #modo-oscuro {
+        font-size: 1rem;
+    }
+}
+
+
+
+
+
+.hero {
+    background-image: url("../images/hero2.jpg");
+}
+
+
+
+
+
+.articulo h3 {
+    font-weight: bold;
+}
